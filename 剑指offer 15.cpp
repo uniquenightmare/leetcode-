@@ -1,7 +1,7 @@
 #define  _CRT_SECURE_NO_WARNINGS 1
 #include<iostream>
 using namespace std;
-int hammingWeight(uint32_t n) {
+int hammingWeight(unsigned int n) {
 	int count = 0;
 	while (n)
 	{

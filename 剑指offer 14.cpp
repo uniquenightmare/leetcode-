@@ -7,5 +7,5 @@ int cuttingRope(int n) {
 	int num3 = n / 3;
 	if (n % 3 == 1) num3--;
 	int num2 = (n - 3 * num3) / 2;
-	return (int)(pow(2, num2)) * (int)(pow(3, num3));
+	return (int)(pow(2.0, num2)) * (int)(pow(3.0, num3));
 }
